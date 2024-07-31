@@ -62,7 +62,7 @@ class Program:
             device="/dev/ttyUSB0",
             baudrate="9600",
             pin_enable="GPIO22",
-            pin_reset="GPIO22",
+            pin_reset="GPIO27",
         )
 
     def _read_pms5003(self):
